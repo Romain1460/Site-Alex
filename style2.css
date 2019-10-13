@@ -1,16 +1,18 @@
-body{background-color: yellow;
+body{background-color: yellow ;
     background-repeat:  no-repeat; 
-    background-size:cover;
-    background-size: auto;
-    -o-background-size: cover;
-    background-attachment: fixed, scroll;
-    -webkit-background-size: cover;};
+    background-repeat:center fixed;
+    background-size: cover; /* version standardisée */
+    -o-background-size: cover; /* version précédente */};
 
 /*Code des boutons*/
 
+
 #menu {margin-left:auto;
-    margin-right: auto;
-}
+        margin-right: auto;
+  }
+
+
+
 
 #menu ul {
     margin:0;
@@ -20,7 +22,7 @@ body{background-color: yellow;
     }
 
 #menu li {
-    float:left;
+    display:inline-block;
     margin:auto;
     padding:0;
     background-color:red;
@@ -28,7 +30,10 @@ body{background-color: yellow;
 
 #menu li a {
 display:block;
-    width:100px;
+    
+   
+        box-align: center;
+    text-align: center;
     color:white;
     text-decoration:none;
     padding:5px;
@@ -53,5 +58,6 @@ display:block;
 #menu li ul {position:absolute;
                 }
 
+              
              
                     
