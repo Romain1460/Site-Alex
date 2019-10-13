@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
      <html>  
       
         <head>  
@@ -23,8 +23,8 @@
           <form method="post" action="Cible.php">
                <div id="texte">
                     <p>  <label for="ameliorer">Comment pensez-vous que je pourrais améliorer mon site ?</label><br />
-                          <textarea name="ameliorer" id="ameliorer"></textarea>
-                          <input type="submit" value="Envoyer" accesskey="s" id="ameliorer"> 
+                          <textarea name="test" id="ameliorer"></textarea>
+                          <input type="submit" value="Envoyer" accesskey="s"> 
                          </p> 
                         
                </div>
