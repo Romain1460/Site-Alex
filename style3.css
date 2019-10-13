@@ -1,4 +1,4 @@
-﻿body{background-color: yellow};
+body{background-color: yellow};
 
 /*Code des boutons*/
 
@@ -17,9 +17,8 @@
     }
 
 #menu li a {
-display:block;
-    width:450px;
-    text-align: center;
+    display:block;
+    width:100px;
     color:white;
     text-decoration:none;
     padding:5px;
