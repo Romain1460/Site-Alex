@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 ﻿body{background-color: yellow ;
     background-repeat:  no-repeat; 
     background-repeat:center fixed;
     background-size: cover; /* version standardisée */
     -o-background-size: cover; /* version précédente */};
+=======
+﻿body{background: black  }
+>>>>>>> master
 
 /*Code des boutons*/
 
